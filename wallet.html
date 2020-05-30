@@ -55,19 +55,72 @@
 
 
 
-<div class="container">
+<div class="container-fluid">
 
     <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6" style="padding: 20px;">
+        <div class="col-md-4">
+            <div class="siddy">
+                <div class="text-center">
+                    <img src="asset/img/userface.png" alt="" height="105" width="105"><br><br>
+                    <span><strong>Glory Ose</strong></span><br>
+                    <span><strong>Agent ID:</strong>08041</span>
+                </div>
+
+                <hr>
+
+
+                <ul style="list-style: none;" class="sidebar-nav">
+
+
+                    <li style="margin-left: -10px; margin-bottom: -10px;" class="">
+                        <a  href="agentdashboard.html"><i class="fa fa-tachometer-alt"></i><span style="margin-left: -15px;">Dashboard</span> </a>
+                    </li>
+                    <li class="">
+                        <a href="profile.html"> <img src="asset/img/icon1.png"> Profile Settings</a>
+
+                    </li>
+                    <li>
+                        <a href="notification.html"><img src="asset/img/icon2.png"> Notifications</a>
+                    </li>
+                    <li>
+                        <a href="messages.html"><img src="asset/img/icon3.png"> Messages</a>
+                    </li>
+                    <li>
+                        <a href="createseller.html"><img src="asset/img/icon4.png"> Create Seller Account</a>
+                    </li>
+                    <li>
+                        <a href="histogram.html"><img src="asset/img/icon5.png"> All Sellers Pre-chart</a>
+                    </li>
+                    <li>
+                        <a href="wallet.html"><img src="asset/img/icon6.png" alt=""> Wallet</a>
+                    </li>
+                    <li>
+                        <a href="contact-admin.html"><img src="asset/img/icon7.png" alt=""> Contact Admin</a>
+                    </li>
+
+                    <li>
+                        <a href="verification.html"><img src="asset/img/icon8.png" alt=""> Verification</a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="col-md-8" style="padding: 20px;">
             <div class="card" style="background-color: #707070; border-radius: 20px; padding: 40px;">
                 <div class="row">
-                    <div class="col-md-2"></div>
+                    <div class="col-md-3"></div>
                     <div class="col-md-4">
                         <img src="asset/img/percent.png">
                         <p class="text-white" style="margin-left: 15px; margin-top: 10px;">Total Sales</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-1"></div>
                     <div class="col-md-4">
                         <br>
                         <img src="asset/img/chart.png">
@@ -76,13 +129,13 @@
                     </div>
                 </div><br><br>
                 <div class="row">
-                    <div class="col-md-2"></div>
+                    <div class="col-md-3"></div>
                     <div class="col-md-4">
                         <img src="asset/img/stage.png">
                         <br><br>
                         <p class="text-white">Stage</p>
                     </div>
-                    <div class="col-md-2"></div>
+                    <div class="col-md-1"></div>
                     <div class="col-md-4">
                         <img src="asset/img/sigma.png">
                         <p class="text-white">N2,500</p>
@@ -90,39 +143,40 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4"></div>
+                    <div class="col-md-5"></div>
                     <div class="col-md-4">
                         <img style="margin-left: 25px;" src="asset/img/net.png">
                         <br><br>
                         <p style="margin-left: 25px;" class="text-white">N1,500</p>
                         <p style="margin-left: 15px;" class="text-white">Net Balance</p>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-3"></div>
                 </div>
             </div>
 
             <br><br>
-            <h5 class="text-white text-center">Request Cash-out</h5>
-            <form>
-                <div class="form-group">
-                    <label class="text-white" for="account-number">Amount</label>
-                    <input  id="account-number" class="form-control" type="text" placeholder="Enter Amount">
-                </div>
-                <br>
-                <div class="form-group">
-                    <label class="text-white" for="service">Narration</label>
-                    <input  id="service" class="form-control" type="text" placeholder="">
-                </div>
-                <br>
+             <div class="container" style="width: 300px;">
+                 <h5 class="text-white text-center">Request Cash-out</h5>
+                 <form>
+                     <div class="form-group">
+                         <label class="text-white" for="account-number">Amount</label>
+                         <input  id="account-number" class="form-control" type="text" placeholder="Enter Amount">
+                     </div>
+                     <br>
+                     <div class="form-group">
+                         <label class="text-white" for="service">Narration</label>
+                         <input  id="service" class="form-control" type="text" placeholder="">
+                     </div>
+                     <br>
 
 
-                <button class="btn" style="border: 1px solid white; margin-left: 200px; width: 150px; background-color:#02499B; border-radius: 20px; color: white;">SEND</button>
+                     <button class="btn" style="border: 1px solid white; margin-left: 70px; width: 150px; background-color:#02499B; border-radius: 20px; color: white;">SEND</button>
 
-            </form>
+                 </form>
+             </div>
             <br><br>
 
         </div>
-        <div class="col-md-3"></div>
     </div>
 
 

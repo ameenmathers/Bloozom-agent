@@ -270,16 +270,17 @@ h6 {
     font-size: 24px;
 }
 
+
 .siddy{
     list-style: none;
-    padding: 40px;
-    width: 414px;
+    padding: 10px;
     position: absolute;
     color:#02499B;
-    border-radius: 20px;
+    width: 400px;
     background-color:  #FFFFFF;
 
 }
+
 
 .sidebar-nav > li {
     text-indent: 10px;
